@@ -2529,7 +2529,7 @@ Back To Top Section
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #fd4d40 url("../images/cd-top-arrow.svg") no-repeat center 50%;
+  background: #fd4d40 url("../images/cd-top-arrow.png") no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
