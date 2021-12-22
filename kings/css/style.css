@@ -647,7 +647,7 @@ h1.single{
 	bottom: 0;
 	top: 0%;
 	background: rgb(0, 38, 85);
-	background: linear-gradient(to right, rgba(221, 47, 31, 0.555), rgba(0, 46, 102, 0.664)); /* Black see-through */
+	background: linear-gradient(to right, rgba(3, 20, 250, 0.555), rgba(163, 0, 8, 0.664)); /* Black see-through */
 	width: 100%;
 	transition: .5s ease;
 	opacity:2;
@@ -660,7 +660,8 @@ h1.single{
 }
 
 .slider .bxslider li {
-	background: url(../images/img1.jpeg) no-repeat 50% 50%;
+	background: url(../images/img4.jpeg) no-repeat;
+	background-position: 30% 30%;
 	background-size: cover;
 	height: 600px;
 	position: relative;
