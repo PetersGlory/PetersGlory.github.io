@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation Tutorial..</title>
+
+	<!-- stylings -->
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #181818;
+			min-height: 100vh;
+		}
+		div{
+			position: relative;
+			overflow: hidden;
+			width: 200px;
+			height: 200px;
+			border-radius: 10px;
+			box-shadow: 16px 4px 16px #0000008c;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		div::before{
+			content: "";
+			background-image: conic-gradient(
+				#fff 20deg,
+				transparent 120deg
+			);
+			height: 150%;
+			width: 150%;
+			position: absolute;
+			animation: rotate 2.5s linear infinite;
+
+		}
+		div::after{
+			content: "Animation";
+			width: 190px;
+			height: 190px;
+			background: #101010;
+			position: absolute;
+			border-radius: 10px;
+			color: #fff;
+			box-shadow: inset 15px 15px 15px #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			letter-spacing: 5px;
+			font-family: cursive;
+		}
+		@keyframes rotate{
+			0%{
+				transform: rotate(0deg);
+			}
+			100%{
+				transform: rotate(-360deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

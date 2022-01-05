@@ -647,7 +647,7 @@ h1.single{
 	bottom: 0;
 	top: 0%;
 	background: rgb(0, 38, 85);
-	background: linear-gradient(to right, rgba(255, 255, 255, 0.466), rgba(0, 103, 199, 0.514)); /* Black see-through */
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.548), rgba(0, 93, 180, 0.795)); /* Black see-through */
 	width: 100%;
 	transition: .5s ease;
 	opacity:2;
